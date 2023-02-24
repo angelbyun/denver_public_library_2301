@@ -7,6 +7,7 @@ class Author
   end
 
   def write(title, publication_date)
-    @charlotte_bronte.title.publication_date = book
+    author.write(title, publication_date) == book
+    # require 'pry'; binding.pry
   end
 end

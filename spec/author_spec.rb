@@ -14,6 +14,7 @@ RSpec.describe Author do
   end
 
   it 'can write a book' do
+    @charlotte_bronte.author
     expect(@charlotte_bronte.write("Jane Eyre", "October 16, 1847")).to eq(@jane_eyre)
   end
 
